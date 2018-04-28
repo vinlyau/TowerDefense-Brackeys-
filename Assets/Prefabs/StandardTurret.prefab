@@ -139,7 +139,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1621839435984004}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 35, y: 0.5, z: 20}
+  m_LocalPosition: {x: 31.24, y: 0.5, z: 19.83}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4665316264577666}
@@ -174,9 +174,9 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: dd28f9cba8866734bbb335a9214f04b9, type: 2}
-  - {fileID: 2100000, guid: ffea467c874636b40ad143400128bb05, type: 2}
-  - {fileID: 2100000, guid: e4d34675b1f7f80458124e11f167d6f8, type: 2}
+  - {fileID: 2100000, guid: c4f5770864dedc44581a579f4c5a0056, type: 2}
+  - {fileID: 2100000, guid: 42c57ac0c39e90f42a6742139c9002ca, type: 2}
+  - {fileID: 2100000, guid: 4b53cbb1f1dcd5545bdbe613a8e5cb07, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -210,8 +210,8 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: ffea467c874636b40ad143400128bb05, type: 2}
-  - {fileID: 2100000, guid: e4d34675b1f7f80458124e11f167d6f8, type: 2}
+  - {fileID: 2100000, guid: 42c57ac0c39e90f42a6742139c9002ca, type: 2}
+  - {fileID: 2100000, guid: 4b53cbb1f1dcd5545bdbe613a8e5cb07, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -258,10 +258,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   range: 15
   fireRate: 1
-  target: {fileID: 0}
-  partToRotate: {fileID: 4665316264577666}
   bulletPrefab: {fileID: 1816247821588748, guid: 4de9873fd6d858a4abed92876d72e584,
     type: 2}
+  useLaser: 0
+  damageOverTime: 30
+  slowAmount: 0.5
+  lineRenderer: {fileID: 0}
+  impactEffect: {fileID: 0}
+  impactLight: {fileID: 0}
+  target: {fileID: 0}
+  partToRotate: {fileID: 4665316264577666}
   firePoint: {fileID: 4126587026880300}
   turnSpeed: 10
   enemyTag: Enemy
